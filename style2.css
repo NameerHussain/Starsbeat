@@ -1,0 +1,89 @@
+/* ... Your existing styles ... */
+
+.beat-store {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.beat-store-content {
+    text-align: center;
+}
+
+.beat-store-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.beat-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.beat-item {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.beat-item:hover {
+    transform: scale(1.05);
+}
+
+.beat-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.beat-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.beat-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #e65c00;
+}
+/* ... Your existing styles ... */
+
+.download-button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #e65c00;
+}

@@ -1,0 +1,42 @@
+/* ... Your existing styles ... */
+
+.payment-page {
+    background-color: #f7f7f7;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.payment-content {
+    max-width: 500px;
+}
+
+.payment-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.payment-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.email-button:hover {
+    background-color: #e65c00;
+}
